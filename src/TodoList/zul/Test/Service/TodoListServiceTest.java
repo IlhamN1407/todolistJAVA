@@ -35,6 +35,7 @@ public class TodoListServiceTest {
         todoListRepository.data[0] = new Todolist("satu");
         todoListRepository.data[1] = new Todolist("satu1");
         todoListRepository.data[2] = new Todolist("satu2");
+        todoListRepository.data[3] = new Todolist("satu3");
 
         todoListService.showAll();
 
